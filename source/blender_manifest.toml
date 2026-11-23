@@ -1,0 +1,28 @@
+schema_version = "1.0.0"
+
+id = "pullsnpins_clothlite"
+version = "1.0.15"
+name = "PULLS'NPiNS ClothLite"
+tagline = "Click-drag pull and pin on existing cloth simulations"
+maintainer = "Raja-Muda"
+type = "add-on"
+
+# Replace with your real repository URL before publishing.
+website = "https://github.com/raja-muda/pullsnpins_clothlite"
+
+# https://docs.blender.org/manual/en/latest/advanced/extensions/tags.html
+tags = ["Physics", "Animation"]
+
+blender_version_min = "4.2.0"
+
+# https://docs.blender.org/manual/en/latest/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2026 Raja Muda",
+]
+
+# No [permissions] block: the add-on does not use files, network or clipboard.
+# No [build] block: Blender's default excludes (__pycache__/, .git, *.zip) are enough
+# because only the contents of this source/ folder are packaged.
